@@ -1,0 +1,14 @@
+#google_translate_element {
+    display: inline-block;
+    margin: 10px;
+}
+.goog-te-gadget-simple {
+    background-color: lightgreen;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.goog-te-gadget-simple:hover {
+    background-color: #e0f7e0;
+}

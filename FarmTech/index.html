@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VD FarmTech | Fertilizers and Liquids Provider</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="react.jsx"></script>
+    <script src="script.js"></script>
+    <script src="About.js"></script>
+    <script src="app.js"></script>
+    <script src="ContactForm.js"></script>
+    <script src="features.js"></script>
+    <script src="footer.js"></script>
+    <script src="header.js"></script>
+    <script src="hero.js"></script>
+    <script src="pricing.js"></script>
+    <script src="ProductList.js"></script>
+<link rel="stylesheet" href=".search-bar.css">
+<link rel="stylesheet" href="translate.css">
+<script src="JavaScript to implement search fun.js"></script>
+<style>
+        .search-bar {
+            background-color: lightgreen;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .search-bar input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .search-bar button {
+            background-color: yellow;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .search-bar button:hover {
+            background-color: #ffcc00;
+        }
+    </style>
+
+</head>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="Images/Logo.jpg" alt="VD FarmTech Logo" class="logo">
+            </a>
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span> Submit
+            </button> -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#products">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                  
+                  <div id="google_translate_element"></div>
+
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'gu,en', // Include Gujarati and English
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+
+    </script>
+    
+<!-- search bar -->
+
+<div class="search-bar">
+  <form action="/search" method="get">
+    <input type="text" name="query" placeholder="Search VD FarmTech">
+    <button type="submit">Search</button>
+  </form>
+</div>
+      
+      <img src="Images/Kisan_In_Farmer_Smile.png" alt="Farming Supplies Hero Image">
+<img src="Images/Young.png" alt="Description of Image">
+
+    <!-- Hero Section -->
+    <section id="home">
+        <h1>Welcome to VD FarmTech</h1>
+        <p>Get the best fertilizers and liquids for your farm</p>
+        <img src="Images/Khet.jpg" alt="Farming Supplies Hero Image">
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="Images/NPK.png" alt="Fertilizer Product 1">
+                <h3>NPK fertilizer</h3>
+                <p>NPK fertilizer contains nitrogen, phosphorus, and potassium, essential nutrients for healthy plant growth.</p>
+                <button>Buy Now ₹500 Pr Bag</button>
+            </div>
+
+
+
+            <div class="product-card">
+                <img src="Images/MOP Potash.png" alt="Liquid Medicine Product 2">
+                <h3>MOP Potash</h3>
+                <p>MOP (Muriate of Potash) is a common potassium fertilizer used in agriculture, primarily for its high potassium content</p>
+                <button>Buy Now ₹700 Pr Bag</button>
+            </div>
+
+
+            <div class="product-card">
+                <img src="Images/Bio Potash Organic.png" alt="Liquid Medicine Product 2">
+                <h3>Bio - Potash Organic</h3>
+                <p>Bio-Potash Organic enhances plant growth by providing essential potassium, improving root development, disease resistance, and overall crop yield in an eco-friendly way.</p>
+                <button>Buy Now ₹550 Pr Bag</button>
+            </div>
+
+
+            <div class="product-card">
+                <img src="Images/High Islands Organic.png" alt="Liquid Medicine Product 2">
+                <h3>High - Islands Organic</h3>
+                <p>High-Islands Organic promotes healthy plant growth by enriching soil with essential nutrients, boosting fertility, and enhancing crop resilience, naturally improving yield.</p>
+                <button>Buy Now ₹1000 Pr Bag</button>
+            </div>
+
+
+            <div class="product-card">
+                <img src="Images/imported NPK.png" alt="Liquid Medicine Product 2">
+                <h3>imported NPK </h3>
+                <p>Imported NPK provides balanced Nitrogen, Phosphorus, and Potassium, promoting strong plant growth, improved root development, and higher crop yields efficiently.</p>
+                <button>Buy Now ₹900 Pr Bag</button>
+            </div>
+
+
+            <div class="product-card">
+                <img src="Images/Innovad.png" alt="Liquid Medicine Product 2">
+                <h3>Innovad Organic Fertilizer</h3>
+                <p>Innovad Organic boosts soil fertility naturally, enhances plant growth, and improves crop resilience with sustainable, eco-friendly nutrients.</p>
+                <button>Buy Now ₹1500 Pr Bag</button>
+            </div>
+
+
+            <div class="product-card">
+                <img src="Images/Kabhko Urea.png" alt="Liquid Medicine Product 2">
+                <h3>Kabhko Urea Fertilizer</h3>
+                <p>Kabhko Urea supplies essential nitrogen to plants, promoting rapid growth, lush green foliage, and higher crop productivity.</p>
+                <button>Buy Now ₹4500 Pr Bag</button>
+            </div>
+
+
+            <div class="product-card">
+                <img src="Images/Nutri Harvest Organic Without Damage.png" alt="Liquid Medicine Product 2">
+                <h3>Nutri Harvest Super Organic</h3>
+                <p>Nutri Harvest Super Organic enhances soil health, boosts plant growth, and improves crop yields with all-natural, organic nutrients</p>
+                <button>Buy Now ₹600 Pr Bag</button>
+            </div>
+
+
+            <div class="product-card">
+                <img src="Images/Narmada Urea.png" alt="Liquid Medicine Product 2">
+                <h3>Narmada - Urea</h3>
+                <p>Narmada Urea is a high-nitrogen fertilizer that boosts plant growth, enhances green foliage, and increases crop yields.</p>
+                <button>Buy Now ₹900 Pr Bag</button>
+            </div>
+
+
+            <div class="product-card">
+                <img src="Images/Organic Compost + Soil Organic.png" alt="Liquid Medicine Product 2">
+                <h3>Organic Compost + Soil Organic</h3>
+                <p>Organic Compost + Soil Organic enriches soil health, boosts nutrient content, and enhances plant growth sustainably for higher crop yields.</p>
+                <button>Buy Now ₹350 Pr Bag</button>
+            </div>
+
+
+            <div class="product-card">
+                <img src="Images/Organic Super Growth.png" alt="Liquid Medicine Product 2">
+                <h3>Organic Super Growth</h3>
+                <p>Organic Super Growth promotes faster plant development, improves soil health, and increases crop yield with natural, eco-friendly nutrients.</p>
+                <button>Buy Now ₹450 Pr Bag</button>
+            </div>
+
+
+            <div class="product-card">
+                <img src="Images/Sheer Potash.png" alt="Liquid Medicine Product 2">
+                <h3>Sheer Potash</h3>
+                <p>Sheer Potash is a concentrated form of potassium carbonate, used to enhance plant growth and improve crop yields.</p>
+                <button>Buy Now ₹500 Pr Bag</button>
+            </div>
+
+
+            <div class="product-card">
+                <img src="Images/Soil Conditionar Organic.png" alt="Liquid Medicine Product 2">
+                <h3>Soil Conditioner Organic</h3>
+                <p>Soil Conditioner Organic improves soil structure, enhances moisture retention, and promotes healthy plant growth with natural, eco-friendly ingredients.</p>
+                <button>Buy Now ₹450 Pr Bag</button>
+            </div>
+
+
+            <div class="product-card">
+                <img src="Images/Soil Enricher  Organic.png" alt="Liquid Medicine Product 2">
+                <h3>Soil Enricher Organic</h3>
+                <p>Soil Enricher Organic boosts soil fertility by adding essential nutrients and organic matter, promoting robust plant growth and soil health.</p>
+                <button>Buy Now ₹750 Pr Bag</button>
+            </div>
+
+
+            <div class="product-card">
+                <img src="Images/Sulphur 90cb.png" alt="Liquid Medicine Product 2">
+                <h3>Sulphur 90cb</h3>
+                <p>Sulphur 90CB is a high-purity sulfur fertilizer that helps correct soil deficiencies, improve plant health, and boost crop yields.</p>
+                <button>Buy Now ₹1500 Pr Bag</button>
+            </div>
+
+
+            <div class="product-card">
+                <img src="Images/iffco NPK.png" alt="Liquid Medicine Product 2">
+                <h3>IFFCO NPK Super Heist</h3>
+                <p>IFFCO NPK is a balanced fertilizer providing essential Nitrogen, Phosphorus, and Potassium, promoting overall plant growth and enhancing crop productivity</p>
+                <button>Buy Now ₹1300 Pr Bag</button>
+            </div>
+
+
+            <div class="product-card">
+                <img src="Images/Nutri HArvest Organic.png" alt="Liquid Medicine Product 2">
+                <h3>Nutri Harvest Non - Organic</h3>
+                <p>Nutri Harvest Non-Organic provides essential nutrients for plant growth, improving crop yield and soil fertility through chemical inputs.</p>
+                <button>Buy Now ₹450 Pr Bag</button>
+            </div>
+
+
+            <div class="product-card">
+                <img src="Images/Bio NPK.png" alt="Liquid Medicine Product 2">
+                <h3>Bio - NPK </h3>
+                <p>BIO-NPK is a bio-based fertilizer that combines organic matter with essential Nitrogen, Phosphorus, and Potassium, enhancing soil health and plant growth.</p>
+                <button>Buy Now ₹900 Pr Bag</button>
+            </div>
+            <!-- Add more product cards here -->
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <form>
+        <h2>Get in Touch</h2>
+        <p>We'd love to hear from you!</p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea><br><br>
+        <input type="submit" value="Send">
+      </form>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Farming Supplies. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

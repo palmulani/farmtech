@@ -1,0 +1,187 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('Images/Farming.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 2em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #a30b0b;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #ccc;
+}
+
+nav a:hover {
+  color: #e21919;
+}
+
+#home {
+  background-image: linear-gradient(to bottom, #ffcc00, #fff);
+  padding: 2em;
+  text-align: center;
+}
+
+#home h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#home img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin: 15px 0;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 8, 8, 0.958);
+}
+
+.product-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-card button {
+  background-color: #ff1900;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+  background-color: #000;
+}
+
+#about {
+  background-image: url(Images/Nature1.jpg);
+  padding: 1em;
+  display: flex;
+  justify-content:center;
+}
+
+#about img {
+  width: 50%;
+  height: auto;
+}
+
+.collumn2, .collumn1 {
+  width: 60%;
+}
+
+.navbar {
+  background-color: #ffd000;
+  padding: 1em;
+  text-align:right;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.navbar-brand img {
+  height: 100px;
+}
+
+.nav-link {
+  color: #000;
+  text-shadow: 1px 1px brown;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 40px;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.navbar-toggler {
+  border: 1px solid #333;
+  padding: 10px;
+  font-size: 18px;
+}
+
+form {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #ff2600;
+}
+
+footer {
+  background-color: #00bd3f;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
